@@ -33,7 +33,6 @@ const describe = async () => {
     .append("svg")
     .attr("width", width)
     .attr("height", height)
-  console.log(geoData)
 
   const projection = d3
     .geoMercator()
